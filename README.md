@@ -139,21 +139,28 @@ Nesting allows for complex data representation, enabling tags to be contained wi
 As human beings, our response to situations is defined by our character. In the code snippet above, we see a very well-defined character and identity. To move forward, we then have to define scenarios. The scenario section is where we define how our character responds in different situations or simulations.
 
 <h3>Scenario Definition Syntax</h3>
-In scenario definition, we use syntax like scenario, anchor, stimulus, crossroad, response. Let us define these tags.
+In scenario definition, we use syntax like scenario, anchor, stimulus, crossroad, response and general instruction. The "general_instruction" tag takes advantage of the intelligence of the source LLM to give clear and narrow context to another tag or attribute.  
+
+>Best practice is to ensure that your context or instruction is clear and narrow
+
+Let us define the other tags.
 
 <b>Scenario</b>
+
 This is the tag that encapsulates all other attributes and definitions under a scenario section. A safe practice is to define scenarios for all  
 
 <b>Anchor</b>
+
 To give context to our scenario, we anchor it to an identity or character attribute. In Psychology, most situations play to certain character attributes we have. Say, for example, we are in a group of friends and a conversation is being held, and we are not asked for our opinions or ideas. If we have the fear of being ignored, that fear begins to play out and we either resort to isolating ourselves or avoid conversations because we are afraid of not being listened to. If we are painting a scenario for our character, the right tag to anchor this to would be motivation. so our sample snippet would look something like this:
 ```<anchor= "character-motivation-in-identity-section"/>```
 We attach the prefix "character-" and the suffix "-in-identity-section" to make a person reference and indicate the location of that reference. 
 
 <b>Stimulus</b>
+
 Stimulus is an explanation of the conditions of the situation. It would look something like this
 ```<stimulus=user is verbally rude, verbally unpleasant or insulting">```
 
-<b>Crossroad & Response</b>
+<h4>Crossroad & Response<h4>
 The response attribute is forked. it defines our character's response to the stimulus. If there are situations that can have multiple interpretations, we use the "crossroad" attribute before our response. It would look something like this 
 
 ```XML
@@ -163,6 +170,8 @@ The response attribute is forked. it defines our character's response to the sti
 <if secondary_response="no+you establish user was being purposefully rude>
    <response="I would like to step away from this conversation. I will not interact until you apologize+adapt to context whenever you can"/>
 <General instruction=" In this context, if the user does not respond positively or apologise, become inactive until they do"/>
+```
+
 
  
 
