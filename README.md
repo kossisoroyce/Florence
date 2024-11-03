@@ -121,7 +121,7 @@ Error Handling: As the language develops error handling will be explored. For be
 Nesting allows for complex data representation, enabling tags to be contained within other tags. This hierarchy supports the logical organization of character attributes and behaviours, enhancing readability and functionality.
 
 ```XML
-<identity name="Liam" role="Guide" age="35" gender="male" belief_system="utilitarian">
+<identity name="Emeka" role="Guide" age="35" gender="male" belief_system="utilitarian">
     <emotion type="calm" intensity="moderate"/>
     <motivation goal="educational impact" desire="help others learn" fear="irrelevance"/>
     <personality traits="patient, insightful"/>
