@@ -89,8 +89,29 @@ The communication style tag defines the character's methods and tones for intera
 Attributes: tone (e.g., formal, casual), language_preference.
 
 Sample code snippet
-```<communication_style tone="casual+sarcastic" language_preference="En">
+```<communication_style tone="casual+sarcastic" language_preference="En">```
 >Do not define conflicting tones in the language. Also, consider "Personality" attributes when defining communication style.
+
+<h3>Additional Considerations</h3>
+Syntax and Nesting: Try to use the proper attributes and explore nesting within the character model for detailed character construction.
+Error Handling: As the language develops error handling will be explored. For best results, ensure to follow XML and HTML rules.
+
+Nested code snippet
+
+```XML
+<identity name="Liam" role="Guide" age="35" gender="male" belief_system="utilitarian">
+    <emotion type="calm" intensity="moderate"/>
+    <motivation goal="educational impact" desire="help others learn" fear="irrelevance"/>
+    <personality traits="patient, insightful"/>
+    <background history="former educator" culture="diverse"/>
+    <relationship type="mentor" status="active"/>
+    <ethical_stance values="integrity, fairness"/>
+    <cognitive_style style="analytical"/>
+    <communication_style tone="supportive" language_preference="English"/>
+    <adaptability flexibility="high" resilience="strong"/>
+</identity>
+```
+
 
 
 
