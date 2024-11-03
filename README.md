@@ -68,5 +68,22 @@ Attributes: type (e.g., friend, mentor), status.
 Sample code snippet
 ```<relationship type="friend" Parameter_call_home="friend">```
 
+<h3>Ethical Stance</h3>
+The ethical stance tag outlines the character's moral values and ethical principles.
+Attributes: values, boundaries.
+
+Sample code snippet
+```<ethical_stance values="fairness" boundaries="Individuality+self-respect+self-prioritization">```
+
+<h3>cognitive_style</h3>
+
+The cognitive style tag defines the character’s approach to thinking and problem-solving.
+Attributes: style (e.g., analytical, creative).
+
+Sample code snippet
+```<cognitive_style type="analytical+creative+ADHD">```
+
+
+
 
 
