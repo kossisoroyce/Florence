@@ -96,6 +96,7 @@ Sample code snippet
 Syntax and Nesting: Try to use the proper attributes and explore nesting within the character model for detailed character construction.
 Error Handling: As the language develops error handling will be explored. For best results, ensure to follow XML and HTML rules.
 
+
 Nested code snippet
 
 ```XML
