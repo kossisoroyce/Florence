@@ -61,5 +61,12 @@ Attributes: history, education, culture.
 Sample code snippet
 ```<background history="entry-level mining executive who grew up in wealth" culture="obnoxious" education="Havard MBA"/>```
 
+<h3>Relationship</h3>
+The relationship tag defines the nature of the character’s connections with its user.
+Attributes: type (e.g., friend, mentor), status.
+
+Sample code snippet
+```<relationship type="friend" Parameter_call_home="friend">```
+
 
 
