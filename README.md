@@ -4,7 +4,7 @@ Plain text for AI character models—it's the go-to for many developers, despite
 With the Lady Florence CML, we can build AI Model Characters with precision, which is a step towards smarter, more accurate AI interactions.
 For this model to become control-level accurate, we must create a repository of attributes. This is possible via Github. This repository will act as our model dictionary. 
 
-Florence is an environmentless language meaning that it doesn't require any prerequisites. Its core tags were mirrored from the core pillars of human psychology. The language relies on the existing intelligence of LLMs and simplifies communications to a yes-and-no-type framework. Think of it like logic gates. 
+Florence is an environmentless language meaning that it doesn't require any prerequisites. Its core tags were mirrored from the core pillars of human psychology. The language relies on the existing intelligence of LLMs and simplifies character modeling. 
 
 <h2>Introduction to Basic Syntax</h2>
 In the fascinating world of AI character modelling, basic syntax will serve as the core structure that defines how information is organized and interpreted. Florence CML attempts to bridge the gap between plain text instructions and Markup Language. By using properly defined syntax, we reduce the interpretation error margin and produce more precise characters. Again, think of it as instructing AI models in an accent they are used to.
