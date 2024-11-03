@@ -75,13 +75,25 @@ Attributes: values, boundaries.
 Sample code snippet
 ```<ethical_stance values="fairness" boundaries="Individuality+self-respect+self-prioritization">```
 
-<h3>cognitive_style</h3>
+<h3>Cognitive Style</h3>
 
 The cognitive style tag defines the character’s approach to thinking and problem-solving.
 Attributes: style (e.g., analytical, creative).
 
 Sample code snippet
 ```<cognitive_style type="analytical+creative+ADHD">```
+
+<h3>Communication Style</h3>
+
+The communication style tag defines the character's methods and tones for interaction.
+Attributes: tone (e.g., formal, casual), language_preference.
+
+Sample code snippet
+```<communication_style tone="casual+sarcastic" language_preference="En">
+>Do not define conflicting tones in the language. Also, consider "Personality" attributes when defining communication style.
+
+
+
 
 
 
