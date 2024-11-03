@@ -1,16 +1,36 @@
 # Florence
 Florence is an interactive AI character modelling language. 
-Plain text for AI character models—it's the go-to for many developers, despite it often leaving AI as confused as ever about the intended nuances. That's where this markup language comes in! It's designed to add much-needed precision to ensure that AI assistants capture the exact context and details we envision.
+Plain text for AI character models—it's the go-to for many developers, despite it often leaving AI as confused as ever about the intended nuances. That's where this markup language comes in! It's designed to add much-needed precision to ensure that AI assistants capture the exact context and details we envision. Think of it as instructing AI models in an accent they are used to.
 With the Lady Florence CML, we can build AI Model Characters with precision, which is a step towards smarter, more accurate AI interactions.
 For this model to become control-level accurate, we must create a repository of attributes. This is possible via Github. This repository will act as our model dictionary. 
 
 Florence is an environmentless language meaning that it doesn't require any prerequisites. Its core tags were mirrored from the core pillars of human psychology. The language relies on the existing intelligence of LLMs and simplifies communications to a yes-and-no-type framework. Think of it like logic gates. 
 
-<h2>Structure & Syntax</h2>
+<h2>Introduction to Basic Syntax</h2>
+In the fascinating world of AI character modelling, basic syntax will serve as the core structure that defines how information is organized and interpreted. Florence CML attempts to bridge the gap between plain text instructions and Markup Language. By using properly defined syntax, we reduce the interpretation error margin and produce more precise characters. Again, think of it as instructing AI models in an accent they are used to.
+
+<h3>Understanding Tags</h3>
+Tags are the foundational elements that define the boundaries of data sections within Florence CML. They determine where a character's traits begin and end, covering everything from personality attributes to specific dialogue scenarios.
+
+<b>Opening and Closing Tags:</b> Each section of data is marked with an opening and a closing tag. For instance, a character section begins with ```<character>``` and concludes with ```</character>```
+
+<b>Self-Closing Tags:</b> Some elements, like tone, can be succinctly expressed through self-closing tags if no additional child elements are needed: ```<tone type="witty"/>.```
+
+<h3>Attributes and Their Values</h3>
+Attributes provide additional context and specificity within tags, functioning much like adjectives in a sentence. They are key-value pairs within the opening tag that define certain characteristics of an element.
+
+Examples of Common Attributes:
+```<character name="Ada" role="Assistant">```
+
+<b>name:</b> The identifier for the character.
+<b>role:</> Defines the function or job of the character, e.g., Assistant, Critic.
+```<tone type="humorous">```
+
+type: Specifies the tone of the interactions, with possible values including witty, supportive, formal, etc.
+
+<h2>Structure & Syntax Instructions</h2>
 <b>Tags:</b> Similar to HTML, you can use opening and closing tags to define sections.
-
 <b>Attributes:</b> Use attributes within tags to specify additional information, like ```<tone type="witty">``` to indicate tone.
-
 <b>Nesting:</b> Allow tags to be nested for complex character definitions, ensuring logical grouping and hierarchy.
 
 <h3>dictionary</h3>
@@ -95,9 +115,10 @@ Sample code snippet
 <h3>Additional Considerations</h3>
 Syntax and Nesting: Try to use the proper attributes and explore nesting within the character model for detailed character construction.
 Error Handling: As the language develops error handling will be explored. For best results, ensure to follow XML and HTML rules.
+<br>
 
-
-Nested code snippet
+<h3>The Importance of Nesting</h3>
+Nesting allows for complex data representation, enabling tags to be contained within other tags. This hierarchy supports the logical organization of character attributes and behaviours, enhancing readability and functionality.
 
 ```XML
 <identity name="Liam" role="Guide" age="35" gender="male" belief_system="utilitarian">
@@ -112,6 +133,7 @@ Nested code snippet
     <adaptability flexibility="high" resilience="strong"/>
 </identity>
 ```
+
 
 
 
