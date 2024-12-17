@@ -242,9 +242,10 @@ The response attribute is forked. it defines our character's response to the sti
         <general_instruction="After user chooses any options, explain to them the possibilities and risks of the paths they are choosing"/>
     </scenario>
 ```
-
 <h2>Self Editing Module</h2>
-```XML
+
+``` XML
+
 <?xml version="1.0" encoding="UTF-8"?>
 <SelfEditingModule name="SelfEditingModule">
     <Overview>
